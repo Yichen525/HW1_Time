@@ -22,6 +22,8 @@
 		B97D887317F123F700268ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97D885217F123F700268ED6 /* UIKit.framework */; };
 		B97D887B17F123F700268ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B97D887917F123F700268ED6 /* InfoPlist.strings */; };
 		B97D887D17F123F700268ED6 /* HW1_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D887C17F123F700268ED6 /* HW1_TimeTests.m */; };
+		B97D888917F1249F00268ED6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D888717F1249F00268ED6 /* Icon.png */; };
+		B97D888A17F1249F00268ED6 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D888817F1249F00268ED6 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		B97D887817F123F700268ED6 /* HW1_TimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW1_TimeTests-Info.plist"; sourceTree = "<group>"; };
 		B97D887A17F123F700268ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B97D887C17F123F700268ED6 /* HW1_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW1_TimeTests.m; sourceTree = "<group>"; };
+		B97D888717F1249F00268ED6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B97D888817F1249F00268ED6 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		B97D884217F123F700268ED6 = {
 			isa = PBXGroup;
 			children = (
+				B97D888617F1245800268ED6 /* Image */,
 				B97D885417F123F700268ED6 /* HW1_Time */,
 				B97D887617F123F700268ED6 /* HW1_TimeTests */,
 				B97D884D17F123F700268ED6 /* Frameworks */,
@@ -153,6 +158,15 @@
 				B97D887917F123F700268ED6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B97D888617F1245800268ED6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B97D888717F1249F00268ED6 /* Icon.png */,
+				B97D888817F1249F00268ED6 /* background.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B97D886517F123F700268ED6 /* Main_iPad.storyboard in Resources */,
+				B97D888A17F1249F00268ED6 /* background.png in Resources */,
 				B97D886A17F123F700268ED6 /* Images.xcassets in Resources */,
+				B97D888917F1249F00268ED6 /* Icon.png in Resources */,
 				B97D886217F123F700268ED6 /* Main_iPhone.storyboard in Resources */,
 				B97D885917F123F700268ED6 /* InfoPlist.strings in Resources */,
 			);

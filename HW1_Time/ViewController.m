@@ -26,4 +26,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)TimeButton:(UIButton *)sender {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"HH:mm:ss"];
+    NSDate *currentDate =[NSDate date];
+    NSString *formattedDateString = [dateFormatter stringFromDate:currentDate];
+    NSLog(@"formattedDateString: %@", formattedDateString);
+    self.TimeLabel.text=formattedDateString;
+}
+- (IBAction)FontSlider:(UISlider *)sender {
+    double slidervalue=sender.value;
+    NSLog(@"The slider moved and has value %f",slidervalue);
+    self.MoodWord.font=[UIFont systemFontOfSize:slidervalue];
+}
+
+- (IBAction)FontSliderLarge:(UISlider *)sender {
+    double slidervalue=sender.value;
+    NSLog(@"The slider moved and has value %f",slidervalue);
+    self.MoodWord.font=[UIFont systemFontOfSize:slidervalue];
+}
 @end
